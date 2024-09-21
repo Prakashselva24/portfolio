@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/adb0b90b60.js" crossorigin="anonymous"></script>
+</head>
+<body>   
+    <div id="header">
+        <div class="container">
+            <nav>
+                 <a href="#about"><h1>Prakash</h1></a>
+                 <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#technicalskill">Technical Skill</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark fas" id="one" onclick="closemenu(side)"></i>
+                    
+                </ul>
+                
+                <i class="fa-solid fa-bars fas" onclick="openmenu(side)"></i>   
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span style="color: red;">PRAKASH</span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+<!--------------------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./pic .jpg" alt="" height="300" width="250">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                  <p>Hi, I'm Prakash, a passionate web developer
+                    My journey in web development began in my collage days.I'm skilled in Python,HTML,CSS,JavaScript,Reactjs.
+                    I enjoy crafting user-centric interfaces and tackling challenges to bring web ideas to life.
+                    In my free time, I love to listern music and playing football.</p>
+                  <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('edu')">Education</p>
+                    <p class="tab-links" onclick="opentab('exp')">Projects</p>
+                  </div>
+                  <div class="tab-contents active-tab-1" id="skills">
+                    <ul>
+                        <li><span>web Developer</span> <br> Designing web page and web application.</li>
+                        <li><span>UI/UX</span> <br> Designing web pages using UI/UX and web application also.</li>
+                        <li><span>App developer</span> <br>App developer is used to Building mobile Application.</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="edu">
+                    <ul>
+                        <li><span>MCA</span> <span style="color: white;"> 2024</span> <br> Scott Christian College <br>with 70% without any backlogs</li>
+                        <li><span>BCA</span> <span style="color: white;"> 2021</span> <br> Scott Christian College <br>with 68% without any backlogs</li>
+                        <li><span>HLS</span> <span style="color: white;"> 2018</span> <br> st joseph metric Hr sec School <br>with 68%</li>
+                        <li><span>SSLC</span> <span style="color: white;"> 2016</span> <br> st joseph metric Hr sec School <br>with 78%</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="exp">
+                    <ul>
+                        <li><span>Blood Bank Management</span> <span style="font-style: italic;" class="me"> (2021)</span><br>This project designed to know the availability of The 
+                            Blood in the Blood Bank.</li>
+                        <li><span>Credit card Fraud Detection</span> <span style="font-style: italic;" class="me"> (2024)</span><br>This project is designed to find The Fake Credit Card 
+                            in The Society.</li>
+                        
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------>
+    <div id="technicalskill">
+        <div class="container">
+            <div class="subtitle"><h3>Technical Skill</h3></div>
+            <div class="in-sub-title"><p>Backend Development</p></div>
+             <div class="roww">
+                <div><a href="https://www.python.org/doc/essays/blurb/"><img src="./python.jpg" alt=""></a></div>
+                <div><a href="https://www.w3schools.com/sql/sql_intro.asp"><img src="./sql.png" alt=""></a></div>
+                <div><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript"><img src="./java Script.jpg" alt=""></a></div>
+             </div>
+             <div class="in-sub-title"><p>Frontend Development</p></div>
+            <div class="roww">
+                <div><a href="https://www.w3schools.com/html/html_intro.asp"><img src="./html5-logo.jpg" alt=""></a></div>
+                <div><a href="https://www.w3schools.com/css/css_intro.asp"><img src="./css.jpg" alt=""></a></div>
+                <div><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript"><img src="./java Script.jpg" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+ <!--------------------Services----------------->
+  
+  <div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+           <div>
+            <i class="fa-solid fa-code"></i>
+            <h1>wed Design</h1>
+            <p>Web design is like the visual and user-friendly layout of a website. It's about how the site looks and how easy it is to navigate. Imagine it like arranging furniture in a room - you want it to look nice but also be easy to move around in. Web design combines aspects of art and technology to create an informative and engaging experience for visitors.</p>
+            <a href="https://www.simplilearn.com/what-is-web-designing-article">learn more</a>
+           </div>
+
+           <div>
+            <i class="fa-solid fa-crop"></i>
+            <h1>wed development</h1>
+            <p>Web development is the process of building websites and web applications. It involves everything from creating the initial design and layout to writing the code that makes the website function. Developers use a variety of programming languages and tools to bring websites to life.</p>
+            <a href="https://www.geeksforgeeks.org/web-development/">learn more</a>
+           </div>
+
+           <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h1>App development</h1>
+            <p>App development is the process of creating software applications for various devices, like smartphones, tablets, computers, or even web browsers. It involves several steps, including planning, designing, coding, testing, and launching the app. Developers use different programming languages to build these apps, depending on the target platform.  The main focus is on creating a user-friendly experience that meets the specific needs of the app's users.</p>
+            <a href="https://orases.com/what-is-app-development/">learn more</a>
+           </div>
+        </div>
+    </div>
+  </div>
+  <!--------------------work----------------->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./food.jpg" alt="">
+                <div class="layer">
+                    <h3>zomato clone</h3>
+                    <p>Zomato is an Indian multinational restaurant aggregator and food delivery company. It was founded by Deepinder Goyal and Pankaj Chaddah in 2008.Zomato provides information, menus and user-reviews of restaurants as well as food delivery options from partner restaurants in more than 1,000 Indian cities and towns, as of 2022–23. Zomato rivals Swiggy in food delivery and hyperlocal space.</p>
+                    <a href="https://www.zomato.com/chennai"><i class="fa-solid fa-mobile-screen-button"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./netflix.jpg" alt="">
+                <div class="layer">
+                    <h3>netflix clone</h3>
+                    <p>Netflix is an American subscription video on-demand Internet streaming service. The service primarily distributes original and acquired films and television shows from various genres, and it is available internationally in multiple languages.</p>
+                    <a href="https://www.netflix.com/in/"><i class="fa-solid fa-link"></i></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./spotmusic.jpg" alt="">
+                <div class="layer">
+                    <h3>spotify clone</h3>
+                    <p>Spotify is a Swedish audio streaming and media service provider founded on 23 April 2006 by Daniel Ek and Martin Lorentzon.It is one of the largest music streaming service providers, with over 615 million monthly active users, including 239 million paying subscribers, as of March 2024.Spotify is listed  on the New York Stock Exchange in the form of American depositary receipts.</p>
+                    <a href="https://open.spotify.com/"><i class="fa-solid fa-wand-magic-sparkles"></i></a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+  </div>
+   <!--------------------Contact----------------->
+   <div id="contact">
+     <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p> <i class="fa-solid fa-envelope"></i> prakashbt.524@gmail.com</p>
+                <p> <i class="fa-light fa-mobile"></i></a> 9487393516</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_imprakash._/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100011087949194"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/prakash-bt-0aba52318/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="./Prakash.24.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" placeholder="enter your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <input type="number" placeholder="enter mobile number">
+                    <textarea name="message" rows="5" placeholder="enter message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                    
+                </form>
+            </div>
+        </div>
+     </div>
+     <div class="copyright">
+        <p>copyright of Prakash <i class="fa-solid fa-shield"></i> Portfolio</p>
+     </div>
+   </div>
+
+
+
+<script>
+
+    var tablinks=document.getElementsByClassName("tab-links")
+    var tabcontents=document.getElementsByClassName("tab-contents")
+   
+   function opentab(tabname)
+   {
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab-1")
+   }
+   event.currentTarget.classList.add("active-link");
+   document.getElementById(tabname).classList.add("active-tab-1")
+   }
+    
+
+
+   var side=document.getElementById("sidemenu");
+
+   function openmenu()
+   {
+    side.style.right="0"
+   }
+
+   function closemenu()
+   {
+    side.style.right="-200px"
+   }
+
+</script>
+
+
+
+   
+</script>
+
+</body>
+</html>
